@@ -45,6 +45,7 @@ form {
 }
 
 .input-container {
+  height: 20%;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -63,6 +64,10 @@ input {
   border-radius: 12px;
   border: 2px solid black;
   transition: border 0.3s;
+}
+
+.input-error {
+  border: 2px solid rgb(223, 32, 32);
 }
 
 input:hover,
@@ -84,4 +89,9 @@ button {
 
 button:hover {
   background-color: rgba(3, 94, 136, 0.9);
+}
+
+.error-message {
+  color: rgb(223, 32, 32);
+  font-weight: 500;
 }

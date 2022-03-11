@@ -1,4 +1,4 @@
-The starter files for form validation with React Hook Form
+The final code for form validation with React Hook Form
 
 Clone this repo:
 
